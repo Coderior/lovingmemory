@@ -23,6 +23,9 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
 }
 .icon {
   margin-right: 10px;
@@ -48,6 +51,10 @@ export default {}
       border: 8px solid #fff;
       box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.6);
     }
+  }
+  @media screen and (max-width: 800px) {
+    flex: 0 0 100%;
+    width: 100%;
   }
 }
 ul {
