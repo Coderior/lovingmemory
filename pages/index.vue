@@ -55,6 +55,7 @@ export default {}
   @media screen and (max-width: 800px) {
     flex: 0 0 100%;
     width: 100%;
+    min-height: auto;
   }
 }
 ul {
@@ -99,6 +100,11 @@ ul {
   background-position: bottom 20px left 20px;
   background-repeat: no-repeat;
   background-size: 200px;
+  @media screen and (max-width: 800px) {
+    padding: 50px 0 80px;
+    background-position: bottom 2px left 2px;
+    background-size: 150px;
+  }
 }
 
 </style>
