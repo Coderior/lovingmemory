@@ -69,6 +69,13 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
         'https://lh3.googleusercontent.com/pw/ACtC-3e0MbfYAVmqUVlbQAa2Wz6XrWXIVw8bW-c_xu5NDlOhhnIOBWFZZQ5_LsznCu4og9i7MDnSWL5TODc3plYCdlA0F7C9T5CWue00pxh4C3FiWNwqKdFxvVyZBImKG-4fKW-p9LWKfg_8bgxTDHa7o8n1Zw=w586-h924-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3foq9FxVNxpCcu8y9thwrq74sTD2GPiPCnyyveV4WDQ3tcY9Vzz2r3zRdkYbPhb0jGVbbh81MEk8zszWXvEkCQR59QKmMlzqiAbiE-w5MaipKfNed_JldBY6l3IyIYO-HWLGc08xGhtw1OEbAYBL2jlIw=w658-h922-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3fLfei03tMte-Cgh7f0sqFVOo2p9C4--v1auKqOrepq7sZy52pkEmcgjhmNps1tutYJI1s_uET5K4NdM1b4aynKYD7OMi72j8NdbaK9VREB4fzwLQzm1miZ9HrKJTT30oI-tEId1K0meYntoyLU-1dcXw=w618-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3e9BYsN51KCSXWApQOdN6vjidqeTKT91-kcgoLFLVT-8lEvxXU6IHouz3i-OX6jv0JmwXSFKTslwPhgnlruf6THFLkAzFTgoPfY0LEhjZaO8T42ezmzYPo_1adXwOodIR_aIGr9czN8Wc-CtXngfnmX2w=w1458-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3eAFIfbVpmj5VTcBuiApXXMGR73K6LhjtvrENhoeN5WqSRdOSkLXMmiPuVCjiVWs74HKVeYGsPkXQZVnRvTuHfME2TyQXnwxXYQkdTWpJKnmpu-YxSgR0K9G6aycLx0aIVC-2XNbzQRRi8si4r5iTxFOQ=w658-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3eMpPW6JvTteYgKTo9FzIrh1SmahIffc63OhIbGbqdDGvPKvSEVZDbo8XFZ-wVYn39eK2QQuxPJ60mL_potwrGuN-lppk9bErRdXbaP0zks5X6V92WyvhUcYxIoAjQjAAYNjj09RSqi7Ar3NIS8_vPJgw=w692-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3c-TtsJY_JouJqFd2GumEjZZlWJUDVsJkv09pTB-9bps8i5a2InyKVtgnOZ6FUy4hCkXkxIxCz5UdGk74jnz1tB76vZugP7wQVAObGaeOonLMw7ERz1Y-besyToTho-uJEJisJhXXISg8liEh0qOHVFKA=w1200-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3dbOuZ9KCpq9dTTEPeRDQfC75wDRNPZxEwi75iIldCmdr-yBbusIV2h4CTBmvMmuGXe7fXjniJJ6H_wgT0bwrUkQc7fSwWzDRnJNYvKdMuSNSY7WFjWpLojToc2Vl1CIhfylJgxua_F3xHCWWIKr28Z9A=w1218-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3fEgtGEYPqSG1Cr347XsyJs8Rpx0bnFc35SIJTPX3EywZbPQzb6Jnlgk4wD93NeYUacWKhopzP9g8TKhTA1CQz4xlEpq_2Jw3XdfSbDKLiDCozH7vGewBWEC19vinxvhVIJdqeCw81v0AIfcuaF3ocddw=w740-h924-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3cfyZdDnCVtFSkcPPJ8XZPaAPKV3lRcF9GApSP4MNESo4DOPUZv1ktGCZXwpAycPReNU4OQS6DSr-OEiIoPTfuh4PAPKPyJmZMzasyyi2Sq_YqXyYHHRwLWmumw_jKBp7nBjBylhaDQxRVqevUPlIYoVA=w544-h924-no?authuser=0',
         
       ],
       index: null
