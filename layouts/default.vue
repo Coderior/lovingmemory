@@ -59,6 +59,35 @@ html {
       box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.6);
     }
   }
+  &.details {
+    background: #2b3143;
+    color: white;
+    align-items: flex-start;
+    text-align: left;
+    padding: 40px;
+    justify-content: normal;
+    overflow: auto;
+    height: 100vh;
+    p {
+      margin: 10px 0;
+      font-weight: 300;
+    }
+    .title {
+      margin: 0px 0 25px;
+    }
+    h2 {
+      margin: 40px 0 20px;
+    }
+  }
+  .button {
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    background: #b7085f;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 0;
+  }
   @media screen and (max-width: 800px) {
     flex: 0 0 100%;
     width: 100%;
