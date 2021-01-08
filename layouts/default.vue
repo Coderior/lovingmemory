@@ -75,12 +75,11 @@ html {
       font-weight: 300;
     }
     .fa-li {
-      font-size: 22px;
       color: #b7085f;
     }
     ul {
       font-weight: 300;
-      margin: 0 0 0 30px;
+      margin: 0 0 0 25px;
       padding: 0;
       li {
         margin: 10px 0;
@@ -90,7 +89,7 @@ html {
       margin: 0px 0 25px;
     }
     h2 {
-      margin: 40px 0 20px;
+      margin: 40px 0 5px;
     }
   }
   .button {
@@ -120,7 +119,7 @@ ul {
   a {
     color: #ab085a;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     &.nuxt-link-exact-active {
@@ -168,9 +167,12 @@ ul {
   background-repeat: no-repeat;
   background-size: 200px;
   @media screen and (max-width: 800px) {
-    padding: 50px 0 80px;
+    padding: 50px 40px 80px;
     background-position: bottom 2px left 2px;
     background-size: 150px;
+  }
+  ul {
+    padding: 0;
   }
 }
 
