@@ -64,6 +64,12 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
         'https://lh3.googleusercontent.com/pw/ACtC-3dOpskSb8FsNAUiH9fIHRUq0aV0JpPLBdR82GW-YRS5ixUaUdIhYh6URG6xJ-m4rt7czyih2gmV5Az8O0DaOnEoJI3XVKY5Re5pMFJILcov_IqQcH-az3pcleVYYFipsUgkoP4b-Rr0ZvqTYNF_fPXlwQ=w1230-h922-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3cGvuLArbDJsBoKHbkiSNnvajG1YLAPhYb0dlMEnA11tKMDNrfCkG8Iobf7l1cuto_WG5Imtui71lP27kMwZoc9l774KEuz-HzuLXlvIWcFAotCIQvNZif0bCVGHYLrBH10Bd8NrqcbZ4wQ9OEh-TO-jg=w1024-h768-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3fufJO1AoE4xz_95wSIM2jzTve236YIhegkCIgoB0ZQpqOMjln7k8B24lVR4UGZBkLpZoIgt5bMS9eB9ys1gNMCrb8DLwFW1yCepm3VTn6ly8jolXKjls_S2dom5RL813qgGAqlu1x9cYsgg4cAShdCLw=w626-h924-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3eITmvr7VG72pMCnB5QliXGAzDkBfc_7S3TG01NoKlZbcObwdzRmjMFb90cn4rJV9XaO-Z3xFwcenBLIwyYda9a0CMwxEUrgbLJfnctFl9LIzokDNOv_aqbXHG_EU2T0xaOYtsUwV3O9TOOYYW3EHSt-A=w716-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3eSpNHBkKsZ4XgV4raZgxoiUY6Fl7uF_i2tN-Y0RYMrzzURBs6jDZ5a-QSl887nXS3ad-3UBZE1RNG7wDsRHIm-mAgAdEzvYL99qRfVVHO8KP9_PrqG8Q5DCVCXtFyUq1bnXnT3KENMsz4SWAB_jMTFDQ=w584-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3e0MbfYAVmqUVlbQAa2Wz6XrWXIVw8bW-c_xu5NDlOhhnIOBWFZZQ5_LsznCu4og9i7MDnSWL5TODc3plYCdlA0F7C9T5CWue00pxh4C3FiWNwqKdFxvVyZBImKG-4fKW-p9LWKfg_8bgxTDHa7o8n1Zw=w586-h924-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3foq9FxVNxpCcu8y9thwrq74sTD2GPiPCnyyveV4WDQ3tcY9Vzz2r3zRdkYbPhb0jGVbbh81MEk8zszWXvEkCQR59QKmMlzqiAbiE-w5MaipKfNed_JldBY6l3IyIYO-HWLGc08xGhtw1OEbAYBL2jlIw=w658-h922-no?authuser=0',
+        'https://lh3.googleusercontent.com/pw/ACtC-3fLfei03tMte-Cgh7f0sqFVOo2p9C4--v1auKqOrepq7sZy52pkEmcgjhmNps1tutYJI1s_uET5K4NdM1b4aynKYD7OMi72j8NdbaK9VREB4fzwLQzm1miZ9HrKJTT30oI-tEId1K0meYntoyLU-1dcXw=w618-h922-no?authuser=0',
+        
       ],
       index: null
     };
