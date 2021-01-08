@@ -50,6 +50,8 @@ html {
   &.tribute {
     background: #2b3143;
     justify-content: space-between;
+    overflow: auto;
+    height: 100vh;
     img {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
@@ -72,6 +74,18 @@ html {
       margin: 10px 0;
       font-weight: 300;
     }
+    .fa-li {
+      font-size: 22px;
+      color: #b7085f;
+    }
+    ul {
+      font-weight: 300;
+      margin: 0 0 0 30px;
+      padding: 0;
+      li {
+        margin: 10px 0;
+      }
+    }
     .title {
       margin: 0px 0 25px;
     }
@@ -87,6 +101,8 @@ html {
     text-decoration: none;
     color: #fff;
     margin: 10px 0;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(255,255,255,0.2);
   }
   @media screen and (max-width: 800px) {
     flex: 0 0 100%;
