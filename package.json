@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-cool-lightbox": "^2.7.0"
   },
   "devDependencies": {
-    "nuxt-gallery": "^2.0.0",
     "sass": "^1.32.0",
     "sass-loader": "^10.1.0"
   }
