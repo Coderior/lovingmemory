@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/order-of-service", {data:[{}],fetch:[],mutations:void 0});
