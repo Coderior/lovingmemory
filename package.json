@@ -13,6 +13,7 @@
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
+    "nuxt-gallery": "^2.0.0",
     "sass": "^1.32.0",
     "sass-loader": "^10.1.0"
   }
