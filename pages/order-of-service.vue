@@ -5,9 +5,7 @@
     </div>
     <div class="section details">
       <h1 class="title">Order of service</h1>
-      <p>Due to COVID the services are restricted to 20 people, so unfortunately many people who would have loved to 
-        attend will be unable to. The services will be live streamed so everyone who wants to can attend.
-        We will also hold a get together at a later date when COVID restrictions are relaxed.</p>
+      <p>Due to COVID-19 the services are restricted in the number of people allowed, this means many people who would have loved to attend will be unable to. The plan is to live stream the services so everyone who wants to attend will be able to do so virtually. We will also hold a get together at a later date when COVID-19 restrictions are relaxed.</p>
       <h2>Church Service - 28th January 2021 10:30am</h2>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Service starts at 10:30am</li>
