@@ -9,10 +9,10 @@
       <h2>Church Service - 10:30am</h2>
       <p>The church service is being performed at Connection Church Centre - Kingshurst
       </p>
-      <a class="button" target="_blank" href="">Livestream</a>
+      <a class="button" target="_blank" rel=”noopener” href="">Livestream</a>
       <h2>Crematorium - 12pm</h2>
       <p>The service is being held at woodlands crematorium</p>
-      <a class="button" target="_blank" href="">Livestream</a>
+      <a class="button" target="_blank" rel=”noopener” href="">Livestream</a>
     </div>
   </div>
 </template>
