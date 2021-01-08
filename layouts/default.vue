@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -23,32 +23,111 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  @media screen and (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
 }
+.icon {
+  margin-right: 10px;
+  color: #ab085a;
+  font-size: 22px;
+}
+.section {
+  flex: 0 0 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &.tribute {
+    background: #2b3143;
+    justify-content: space-between;
+    img {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      width: 80%;
+      max-width: 260px;
+      border: 8px solid #fff;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.6);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    flex: 0 0 100%;
+    width: 100%;
+    min-height: auto;
+  }
+}
+ul {
+  list-style: none;
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;
+  li {
+  }
+  a {
+    color: #ab085a;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    &.nuxt-link-exact-active {
+      color: #111;
+      .icon {
+        color: #111;
+      }
 
-.button--green:hover {
+    }
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  small {
+    color: #ccc;
+    font-weight: 100;
+  }
+}
+.name {
+  font-size: 40px;
   color: #fff;
-  background-color: #3b8070;
+  font-weight: 300;
 }
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
+.title {
+  font-family: 'Pinyon Script', cursive;
+  display: block;
+  font-weight: 300;
+  font-size: 40px;
   color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+  letter-spacing: 1px;
+  margin: 40px 0;
+  color: #fff;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.subtitle {
+  font-weight: 300;
+  font-size: 14px;
+  color: #adb4c7;
+  margin: 40px 0;
 }
+.links {
+  background-image: url('~assets/corner.svg');
+  background-position: bottom 20px left 20px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  @media screen and (max-width: 800px) {
+    padding: 50px 0 80px;
+    background-position: bottom 2px left 2px;
+    background-size: 150px;
+  }
+}
+
+
 </style>
