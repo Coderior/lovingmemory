@@ -96,7 +96,7 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
     flex-wrap: wrap;
     width: 100%;
     @media screen and (max-width: 800px) {
-      justify-content: space-evenly;
+      justify-content: center;
     }
 }
 .images-wrapper .image {
