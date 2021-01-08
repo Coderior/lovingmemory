@@ -80,7 +80,7 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
         'https://lh3.googleusercontent.com/pw/ACtC-3cYq_eus-Eq1HP7f-I8S3hmk9DwRFarjStwAwQn-6YrZ3NYDqWOO40l1sgwuz-0OOsbpVVBKlTA5_SuCG-g84f8MWReN0DwRSWqlCZpiKhfOEClIphFvYYGTB-BbotloU0shX2a2vWuwGc76LgFSfQP7Q=w782-h924-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3c9EFjWvHV1oQqVL4-oB-c_op3bYZ3EmA9EJdRZcUOQ9sG4K-tCdesaGH38qeDnvuZzBbPla71xRbChXEb1mDaDQ9kJ-nZKeMLy9t0SzYEQyA0kY0u2Q6H5mXoEJNPgky4DFPSKxj_7xXXcvp1XvMBLDg=w784-h922-no?authuser=0',
         'https://lh3.googleusercontent.com/pw/ACtC-3fe7GL0JfbUIHixM-tAHErTMfJ9S077-2E7n8vznQ5n5wrlYUdO_84IWg1faicvqDaoLGeFxxHt9kvk8O6yJZYYyUW3ShvhnootEzQURK5QJEAtSMU4qFnBEXG_OOIEryiTPa_6_gdLu4A54Fc314OzgA=w762-h922-no?authuser=0',
-
+        'https://lh3.googleusercontent.com/pw/ACtC-3ck6dHfJ3eHb5Yt79o-6kNAehOF4La8udqvsPHcukZrfz0YxxddlAvz7xxikeFbH3r6ZpKmIWH54FYS4vqk8_AQTThdWMJF_iP-qtFO74HztKJIx9VmiR-bOdotgJHmH28Scn_Yl-kwg_e6KuMcP-kfsg=w520-h924-no?authuser=0',
       ],
       index: null
     };
