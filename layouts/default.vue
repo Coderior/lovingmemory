@@ -91,8 +91,8 @@ ul {
   display: flex;
   flex-direction: column;
   small {
-    color: #ccc;
-    font-weight: 100;
+    color: #aeafb3;
+    font-weight: 400;
   }
 }
 .name {
