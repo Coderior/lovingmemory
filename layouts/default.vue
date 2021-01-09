@@ -154,11 +154,14 @@ ul {
   font-family: 'Pinyon Script', cursive;
   display: block;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
   margin: 40px 0;
   color: #fff;
+  @media screen and (max-width: 800px) {
+    font-size: 40px;
+  }
 }
 
 .subtitle {
