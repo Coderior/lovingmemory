@@ -54,8 +54,8 @@ html {
     overflow: auto;
     height: 100vh;
     img {
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
+      //-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      //filter: grayscale(100%);
       width: 80%;
       max-width: 260px;
       border: 8px solid #fff;
