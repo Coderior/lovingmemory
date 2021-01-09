@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+$highlight: #c1309a;
+$highlightmuted: #c1309ad9;
 html {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -36,7 +38,6 @@ html {
 }
 .icon {
   margin-right: 10px;
-  color: #ab085a;
   font-size: 22px;
 }
 .section {
@@ -73,9 +74,14 @@ html {
     p {
       margin: 10px 0;
       font-weight: 300;
+      &.highlight {
+        background: $highlightmuted;
+        padding: 20px;
+        font-weight: 400;
+      }
     }
     .fa-li {
-      color: #b7085f;
+      color: $highlight;
     }
     ul {
       font-weight: 300;
@@ -96,7 +102,7 @@ html {
     padding: 15px 30px;
     border-radius: 4px;
     font-size: 18px;
-    background: #b7085f;
+    background: $highlight;
     text-decoration: none;
     color: #fff;
     margin: 10px 0;
@@ -117,7 +123,7 @@ ul {
   li {
   }
   a {
-    color: #ab085a;
+    color: $highlight;
     text-decoration: none;
     padding: 10px 0;
     display: flex;

@@ -6,6 +6,7 @@
     <div class="section details">
       <h1 class="title">Order of service</h1>
       <p>Due to COVID-19 the services are restricted in the number of people allowed, this means many people who would have loved to attend will be unable to. The plan is to live stream the services so everyone who wants to attend will be able to do so virtually. We will also hold a get together at a later date when COVID-19 restrictions are relaxed.</p>
+      <p class="highlight">Those who are able to attend please be aware that it was Lyn's wish that people not wear black at her funeral, so feel free to dress as colourfully as you like.</p>
       <h2>Church Service - 28th January 2021 10:30am</h2>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 10:30am</li>
