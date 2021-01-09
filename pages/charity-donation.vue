@@ -10,10 +10,10 @@
       <p>We are so grateful to <em>Marie Curie</em> for supporting Lyn in her final days and making sure she was as 
         comfortable and peaceful as possible when the end came.
       </p>
-      <a class="button" target="_blank" rel=”noopener” href="https://www.mariecurie.org.uk/donate#donate">Donate to Marie Curie</a>
+      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/lyn-hunt-marie-curie">Donate to Marie Curie</a>
       <h2>Make a Wish</h2>
       <p>Lyn loved children with all her heart and <em>Make A Wish</em>'s goal of giving joy to children during a terrible time is something that would be a fitting tribute to her memory.</p>
-      <a class="button" target="_blank" rel=”noopener” href="https://www.make-a-wish.org.uk/donate/make-a-donation/">Donate to Make a Wish</a>
+      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/lyn-hunt-make-a-wish">Donate to Make a Wish</a>
     </div>
   </div>
 </template>
