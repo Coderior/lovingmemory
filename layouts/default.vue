@@ -50,7 +50,7 @@ html {
   text-align: center;
   &.tribute {
     background: #2b3143;
-    justify-content: space-between;
+    justify-content: space-evenly;
     overflow: auto;
     height: 100vh;
     img {
