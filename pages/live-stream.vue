@@ -5,7 +5,7 @@
     </div>
     <div class="section details">
       <h1 class="title">Service Livestream</h1>
-      <p>As attendance is restricted due to COVID-19 we hope that you will join us virtually. The services will be held on <em>January 28th 2021</em>, first at Connection Church centre then at Woodlands Crematorium.</p>
+      <p>As attendance is restricted due to COVID-19 we hope that you will join us virtually. The services will be held on <em>Thursday January 28th 2021</em>, first at Connection Church Centre then at Woodlands Crematorium.</p>
       <h2>Church Service</h2>
       <p>The church service is being performed at Connection Church Centre - Kingshurst
       </p>
