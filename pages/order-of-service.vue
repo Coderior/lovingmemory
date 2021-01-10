@@ -9,12 +9,12 @@
       <p class="highlight">Those who are able to attend please be aware that it was Lyn's wish that people not wear black at her funeral, so feel free to dress as colourfully as you like.</p>
       <h2>Church Service <span>10:30am</span></h2>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 10:30am</li>
+        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 10:30am at Connection Church Centre - Kingshurst</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>More details coming soon!</li>
       </ul>
-      <h2>Woodlands Crematorium <span>12:00pm</span></h2>
+      <h2>Crematorium <span>12:00pm</span></h2>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 12pm</li>
+        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 12pm at Woodlands Crematorium</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>More details coming soon!</li>
       </ul>
     </div>
