@@ -199,7 +199,7 @@ ul {
 }
 .menu {
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   small {
     color: #aeafb3;
     font-weight: 400;
