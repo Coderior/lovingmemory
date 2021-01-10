@@ -33,7 +33,8 @@ html {
   align-items: center;
   text-align: center;
   @media screen and (max-width: 800px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
 .icon {
@@ -48,6 +49,66 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 800px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: auto;
+    height: calc(100% - 80px)!important;
+  }
+  &.links {
+    background-image: url('~assets/corner.svg');
+    background-position: bottom 20px left 20px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    @media screen and (max-width: 800px) {
+      padding: 0;
+      background-position: bottom 2px left 2px;
+      background-size: 150px;
+      position: fixed;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80px!important;
+      background: darken(#2b3143, 2%);
+      ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        li {
+          height: 100%;
+          .icon {
+            margin: 0;
+          }
+          a {
+            height: 100%;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fffc;
+            font-size: 12px;
+            &.nuxt-link-exact-active {
+              color: #fff;
+              .icon {
+                color: lighten($highlight, 5%);
+              }
+            }
+            .menu span {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    ul {
+      padding: 0;
+    }
+  }
+
   &.tribute {
     background: #2b3143;
     justify-content: space-evenly;
@@ -74,6 +135,7 @@ html {
     justify-content: normal;
     overflow: auto;
     height: 100vh;
+
     p {
       margin: 10px 0;
       font-weight: 300;
@@ -112,11 +174,6 @@ html {
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
     border-top: 1px solid rgba(255,255,255,0.2);
   }
-  @media screen and (max-width: 800px) {
-    flex: 0 0 100%;
-    width: 100%;
-    min-height: auto;
-  }
 }
 ul {
   list-style: none;
@@ -133,10 +190,6 @@ ul {
     align-items: center;
     &.nuxt-link-exact-active {
       color: #111;
-      .icon {
-        color: #111;
-      }
-
     }
   }
 }
@@ -164,6 +217,7 @@ ul {
   color: #fff;
   @media screen and (max-width: 800px) {
     font-size: 40px;
+    margin: 30px 0;
   }
 }
 
@@ -172,19 +226,8 @@ ul {
   font-size: 14px;
   color: #adb4c7;
   margin: 40px 0;
-}
-.links {
-  background-image: url('~assets/corner.svg');
-  background-position: bottom 20px left 20px;
-  background-repeat: no-repeat;
-  background-size: 200px;
   @media screen and (max-width: 800px) {
-    padding: 50px 40px 80px;
-    background-position: bottom 2px left 2px;
-    background-size: 150px;
-  }
-  ul {
-    padding: 0;
+    margin: 25px 0;
   }
 }
 

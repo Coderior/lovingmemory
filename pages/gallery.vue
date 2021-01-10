@@ -101,6 +101,8 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
     width: 100%;
     @media screen and (max-width: 800px) {
       justify-content: center;
+      width: calc(100% + 60px);
+      margin-left: -30px;
     }
 }
 .images-wrapper .image {
@@ -109,8 +111,8 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3px;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     @media screen and (max-width: 800px) {
     }
 }
