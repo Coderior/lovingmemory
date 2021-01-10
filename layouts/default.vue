@@ -50,9 +50,12 @@ html {
   text-align: center;
   &.tribute {
     background: #2b3143;
-    justify-content: space-between;
+    justify-content: space-evenly;
     overflow: auto;
     height: 100vh;
+    @media (max-height: 600px) {
+      justify-content: normal;
+    }
     img {
       //-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       //filter: grayscale(100%);
