@@ -76,6 +76,7 @@ html {
       background: #1e2333d9;
       padding-bottom: 0px!important;
       z-index: 2;
+      backdrop-filter: blur(5px);
       ul {
         display: flex;
         justify-content: space-around;
