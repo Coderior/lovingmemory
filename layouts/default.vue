@@ -165,6 +165,15 @@ html {
     }
     h2 {
       margin: 40px 0 5px;
+      align-items: center;
+      display: flex;
+      span {
+        background: #aa308d;
+        padding: 3px 7px;
+        font-size: 16px;
+        margin-left: 15px;
+        border-radius: 4px;
+      }
     }
   }
   .button {
