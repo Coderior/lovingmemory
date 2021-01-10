@@ -112,9 +112,11 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3px;
-    width: 105px;
-    height: 105px;
+    width: 120px;
+    height: 120px;
     @media screen and (max-width: 800px) {
+      width: 105px;
+      height: 105px;
     }
 }
 </style>
