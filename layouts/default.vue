@@ -198,7 +198,7 @@ ul {
   }
 }
 .menu {
-  display: flex;
+  //display: flex;
   //flex-direction: column;
   small {
     color: #aeafb3;
