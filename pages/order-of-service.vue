@@ -10,18 +10,12 @@
       <h2>Church Service - 10:30am</h2>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 10:30am</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item two</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item three</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item four</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item five</li>
+        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>More details coming soon!</li>
       </ul>
       <h2>Woodlands Crematorium - 12:00pm</h2>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Service starts at 12pm</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item two</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item three</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item four</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Item five</li>
+        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>More details coming soon!</li>
       </ul>
     </div>
   </div>
