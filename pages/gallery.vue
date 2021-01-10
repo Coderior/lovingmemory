@@ -103,6 +103,7 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
       justify-content: center;
       width: calc(100% + 60px);
       margin-left: -30px;
+      margin-bottom: 0px;
     }
 }
 .images-wrapper .image {

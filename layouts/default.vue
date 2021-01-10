@@ -55,7 +55,8 @@ html {
     left: 0;
     width: 100%;
     min-height: auto;
-    height: calc(100% - 80px)!important;
+    height: 100%!important;
+    padding-bottom: 90px!important;
   }
   &.links {
     background-image: url('~assets/corner.svg');
@@ -72,7 +73,9 @@ html {
       left: 0;
       width: 100%;
       height: 80px!important;
-      background: darken(#2b3143, 2%);
+      background: #1e2333d9;
+      padding-bottom: 0px!important;
+      z-index: 2;
       ul {
         display: flex;
         justify-content: space-around;
