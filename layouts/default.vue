@@ -125,8 +125,6 @@ html {
     img {
       //-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       //filter: grayscale(100%);
-      width: 80%;
-      max-width: 260px;
       border: 8px solid #fff;
       box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.6);
     }
