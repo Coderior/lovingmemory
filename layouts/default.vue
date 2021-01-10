@@ -80,6 +80,7 @@ html {
         height: 100%;
         li {
           height: 100%;
+          width: 20%;
           .icon {
             margin: 0;
           }
