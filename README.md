@@ -24,6 +24,7 @@ To build your own clone this repository, then make changes to:
 * `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page.
 * `pages/*` - Change the details in the pages to match what you want them to say.
 * `static/CNAME` - Replace with your own custom domain
+* `layouts/default.vue` - You can change the scss here
 
 ## Putting Live
 * Go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
