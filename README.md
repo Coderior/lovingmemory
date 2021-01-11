@@ -13,6 +13,11 @@ $ yarn dev
 $ yarn generate
 ```
 
+This repository allows you to have a beautiful and simple site that requires no hosting account (it uses Github pages), just a custom domain. It allows you to put details of the funeral arrangements, charity donations links and comes built ready for mobile.
+
+![LovingMemory Desktop animation](https://i.imgur.com/6XxL3DQ.gif)
+![LovingMemory Mobile animation]https://i.imgur.com/clWi4wk.gif)
+
 ## Building your own
 To build your own clone this repository, then make changes to:
 * `nuxt.config.js` - This has the page title, and meta details.
