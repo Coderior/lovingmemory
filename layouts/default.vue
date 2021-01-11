@@ -41,7 +41,7 @@ html {
   margin-right: 10px;
   font-size: 22px;
   height:28px;
-  width: 22px;
+  width: 27.5px;
 }
 .section {
   flex: 0 0 50%;
