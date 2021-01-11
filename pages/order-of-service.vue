@@ -14,7 +14,7 @@
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Scripture reading - Chris Beard</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Welcome &amp; Opening Prayer - Chris Beard</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Lords Prayer - Chris Beard</li>
-        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Song: Goodenss of God</li>
+        <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Song: Goodness of God</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Tributes - Family &amp; Friends</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Jesus Is My Anchor - Song written by Lyn a few months ago and set to music by Kevin. Lyn wanted it played today.</li>
         <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Few moments of quiet</li>
