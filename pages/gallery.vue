@@ -5,21 +5,21 @@
     </div>
     <div class="section details">
       <h1 class="title">Gallery</h1>
-          <CoolLightBox 
-      :items="items" 
-      :index="index"
-      @close="index = null">
-    </CoolLightBox>
+      <CoolLightBox 
+        :items="items" 
+        :index="index"
+        @close="index = null">
+      </CoolLightBox>
 
-    <div class="images-wrapper">
-      <div
-        class="image"
-        v-for="(image, imageIndex) in items"
-        :key="imageIndex"
-        @click="index = imageIndex"
-        :style="{ backgroundImage: 'url(' + image + ')' }"
-      ></div>
-    </div>
+      <div class="images-wrapper">
+        <div
+          class="image"
+          v-for="(image, imageIndex) in items"
+          :key="imageIndex"
+          @click="index = imageIndex"
+          :style="{ backgroundImage: 'url(' + image + ')' }"
+        ></div>
+      </div>
     </div>
   </div>
 </template>

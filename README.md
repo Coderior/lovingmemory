@@ -1,4 +1,4 @@
-# lynhunt.lovingmemory.link
+# Self hosted memorial and funeral arrangements site
 
 ## Build Setup
 
@@ -9,12 +9,20 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
 # generate static project
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Building your own
+To build your own clone this repository, then make changes to:
+* `nuxt.config.js` - This has the page title, and meta details.
+* `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page.
+* `pages/*` - Change the details in the pages to match what you want them to say.
+* `static/CNAME` - Replace with your own custom domain
+
+## Putting Live
+* Go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
+* The custom domain should be pulled in from the CNAME file
+* On you nameservers point a CNAME from your custom domain to `<username>.github.io`
+
+Now, any time you make a change to the source and push the change, GitHub actions should pick up the change and run a workflow that generates the static files and updates the gh-pages branch.
