@@ -32,6 +32,6 @@ To build your own clone, this repository, then make changes to:
 ## Putting Live
 * Go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
 * The custom domain should be pulled in from the CNAME file
-* On you nameservers point a CNAME from your custom domain to `<username>.github.io`
+* On your nameservers point a CNAME from your custom domain to `<username>.github.io`
 
 Now, any time you make a change to the source and push the change, GitHub actions should pick up the change and run a workflow that generates the static files and updates the gh-pages branch.
