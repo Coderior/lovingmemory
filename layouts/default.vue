@@ -40,6 +40,8 @@ html {
 .icon {
   margin-right: 10px;
   font-size: 22px;
+  height:28px;
+  width: 22px;
 }
 .section {
   flex: 0 0 50%;
