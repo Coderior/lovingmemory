@@ -22,7 +22,7 @@ This repository allows you to have a beautiful and simple site that requires no 
 To build your own clone this repository, then make changes to:
 * `nuxt.config.js` - This has the page title, and meta details.
 * `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page.
-* `pages/*` - Change the details in the pages to match what you want them to say.
+* `pages/*` - Change the details in the pages to match what you want them to say. The gallery is just an array of images, so swap them out for your own.
 * `static/CNAME` - Replace with your own custom domain
 * `layouts/default.vue` - You can change the scss here
 
