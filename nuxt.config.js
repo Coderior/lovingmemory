@@ -13,12 +13,6 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Find details on the funeral arrangements for Lyn Hunt' }
     ],
-    script: [
-      {
-        src: 'https://kit.fontawesome.com/e26e1189ce.js',
-        crossorigin: 'anonymous'
-      }
-    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Pinyon+Script&display=swap' }

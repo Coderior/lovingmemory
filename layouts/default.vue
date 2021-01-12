@@ -41,7 +41,7 @@ html {
   margin-right: 10px;
   font-size: 22px;
   height:28px;
-  width: 22px;
+  width: 27.5px;
 }
 .section {
   flex: 0 0 50%;
@@ -246,5 +246,32 @@ ul {
   }
 }
 
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.fa-fw {
+    text-align: center;
+}
+.fa-ul {
+    list-style-type: none;
+    position: relative;
+}
+.fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit;
+}
+.svg-inline--fa.fa-w-8 {
+    width: .5em;
+}
 
+.svg-inline--fa.fa-fw {
+    width: 1.25em;
+}
 </style>
