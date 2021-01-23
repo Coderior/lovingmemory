@@ -1,7 +1,7 @@
 # Self hosted memorial and funeral arrangements site
 I built this as a central place people could go to find out about funeral arrangements for my mom. I hope someone else in a similar situation finds it useful.
 
-[lynhunt.lovingmemory.link](https://lynhunt.lovingmemory.link)
+[demo.lovingmemory.link](https://demo.lovingmemory.link)
 
 ## Build Setup
 
@@ -22,17 +22,17 @@ This repository allows you to have a beautiful and simple site that requires no 
 ![LovingMemory Mobile animation](https://i.imgur.com/Eu9WsP2.gif)
 
 ## Building your own
-To build your own clone, this repository, then make changes to:
-* `nuxt.config.js` - This has the loved ones name and dates, page title, and meta details.
-* `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page.
+To build your own, clone this repository, then make changes to:
+* `nuxt.config.js` - Change the 2 variables at the top with your loved ones name and their dates from and to.
+* `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page, image should be 244px by 292px.
 * `pages/*` - Change the details in the pages to match what you want them to say.
 * `static/CNAME` - Replace with your own custom domain
 * `layouts/default.vue` - You can change the scss here
 * `assets/images/` - Drop all the images you want to show in the galler in this folder - As part of the github action it will rename the images that have problematic names.
 
 ## Putting Live
-* Go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
-* The custom domain should be pulled in from the CNAME file
+* Make sure you have set `static/CNAME` to what it needs to be
 * On your nameservers point a CNAME from your custom domain to `<username>.github.io`
+* Once the Github action runs it should all be setup, but if not, go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
 
-Now, any time you make a change to the source and push the change, GitHub actions should pick up the change and run a workflow that generates the static files and updates the gh-pages branch.
+Now, any time you make a change to the source and push the change, GitHub actions should pick up the change and run a workflow that generates the static files, fixes image names and updates the gh-pages branch.
