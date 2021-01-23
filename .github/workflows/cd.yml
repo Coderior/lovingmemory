@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Fix images
+        run: chmod +x fix.sh && ./fix.sh
+
       - name: Generate
         run: yarn run generate
 

@@ -5,8 +5,8 @@
 </template>
 
 <style lang="scss">
-$highlight: #c1309a;
-$highlightmuted: #c1309ad9;
+$highlight: #f41b8e;
+$highlightmuted: #f41b8ed9;
 html {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -170,7 +170,7 @@ html {
       align-items: center;
       display: flex;
       span {
-        background: #aa308d;
+        background: $highlightmuted;
         padding: 3px 7px;
         font-size: 16px;
         margin-left: 15px;
