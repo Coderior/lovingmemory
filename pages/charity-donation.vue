@@ -7,13 +7,13 @@
       <h1 class="title">Charity Donations</h1>
       <p>Instead of flowers we would like to suggest people make a donation to one of the following charities</p>
       <h2>Marie Curie</h2>
-      <p>We are so grateful to <em>Marie Curie</em> for supporting Lyn in her final days and making sure she was as 
+      <p>We are so grateful to <em>Marie Curie</em> for their support and making sure thrie patients are as 
         comfortable and peaceful as possible when the end came.
       </p>
-      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/lyn-hunt-marie-curie">Donate to Marie Curie</a>
+      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/">Donate to Marie Curie</a>
       <h2>Make a Wish</h2>
-      <p>Lyn loved children with all her heart and <em>Make A Wish</em>'s goal of giving joy to children during a terrible time is something that would be a fitting tribute to her memory.</p>
-      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/lyn-hunt-make-a-wish">Donate to Make a Wish</a>
+      <p><em>Make A Wish</em>'s goal of giving joy to children during a terrible time is something that would be a fitting tribute.</p>
+      <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/">Donate to Make a Wish</a>
     </div>
   </div>
 </template>
