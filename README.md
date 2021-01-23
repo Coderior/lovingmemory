@@ -1,7 +1,7 @@
 # Self hosted memorial and funeral arrangements site
 I built this as a central place people could go to find out about funeral arrangements for my mom. I hope someone else in a similar situation finds it useful.
 
-[lynhunt.lovingmemory.link](https://lynhunt.lovingmemory.link)
+[demo.lovingmemory.link](https://demo.lovingmemory.link)
 
 ## Build Setup
 
