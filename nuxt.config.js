@@ -1,4 +1,11 @@
+const name = 'LOVED_ONES_NAME'
+const dates = 'July 29th 1958 - Jan 4th 2021'
+
 export default {
+  publicRuntimeConfig: {
+    name: name,
+    dates: dates
+  },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -7,11 +14,14 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'In loving memory of Lyn Hunt',
+    get title() {
+      delete this.title
+      return this.title =  'In loving memory of ' + name
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Find details on the funeral arrangements for Lyn Hunt' }
+      { hid: 'description', name: 'description', content: 'Find details on the funeral arrangements for ' + name }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
