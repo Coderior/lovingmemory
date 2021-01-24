@@ -1,4 +1,4 @@
-const name = 'LOVED_ONES_NAME'
+const name = 'Janet Doe'
 const dates = 'July 29th 1958 - Jan 4th 2021'
 
 export default {
