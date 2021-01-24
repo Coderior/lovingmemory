@@ -7,7 +7,7 @@
       <h1 class="title">Charity Donations</h1>
       <p>Instead of flowers we would like to suggest people make a donation to one of the following charities</p>
       <h2>Marie Curie</h2>
-      <p>We are so grateful to <em>Marie Curie</em> for their support and making sure thrie patients are as 
+      <p>We are so grateful to <em>Marie Curie</em> for their support and making sure their patients are as 
         comfortable and peaceful as possible when the end came.
       </p>
       <a class="button" target="_blank" rel=”noopener” href="https://www.justgiving.com/fundraising/">Donate to Marie Curie</a>
