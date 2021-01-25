@@ -61,6 +61,7 @@ glob("assets/images/*.+(png|jpg|jpeg|svg)", opt, async function (err, images) {
             }
             return jfile
             .resize(width, height, Jimp.RESIZE_BEZIER) // resize
+            .quality(60) // set JPEG quality
             .write(thumbdir + '/' + filename); // save
         })
         .catch(err => {
