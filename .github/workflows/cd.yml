@@ -26,7 +26,7 @@ jobs:
         run: yarn
 
       - name: Fix images
-        run: chmod +x fix.sh && ./fix.sh
+        run: node index.js
 
       - name: Generate
         run: yarn run generate

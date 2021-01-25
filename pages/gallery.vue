@@ -14,7 +14,7 @@
       <div class="images-wrapper">
         <div
           class="image"
-          v-for="(image, imageIndex) in images"
+          v-for="(image, imageIndex) in thumbs"
           :key="imageIndex"
           @click="index = imageIndex"
           :style="{ backgroundImage: 'url(' + image + ')' }"
@@ -35,17 +35,23 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
   data: function () {
     return {
       images: [],
+      thumbs: [],
       index: null
     };
   },
   mounted() {
-    this.importAll(require.context('~/assets/images/', true, /\.(png|jpe?g|svg)$/));
+    this.importAll(require.context('~/assets/gallery/', true, /\.(png|jpe?g|svg)$/));
+    this.importThumbs(require.context('~/assets/thumbs/', true, /\.(png|jpe?g|svg)$/));
   },
 
   methods: {
     importAll(r) {
       console.log(r)
       r.keys().forEach(key => (this.images.push(r(key))));
+    },
+    importThumbs(r) {
+      console.log(r)
+      r.keys().forEach(key => (this.thumbs.push(r(key))));
     },
   },
 };
