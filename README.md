@@ -28,7 +28,7 @@ To build your own, clone this repository, then make changes to:
 * `pages/*` - Change the details in the pages to match what you want them to say.
 * `static/CNAME` - Replace with your own custom domain
 * `layouts/default.vue` - You can change the scss here
-* `assets/images/` - Drop all the images you want to show in the galler in this folder - As part of the github action it will rename the images that have problematic names.
+* `assets/images/` - Drop all the images you want to show in the gallery in this folder - As part of the github action it will rename the images that have problematic names, resize images to a max width of 1800px (more than big enough for viewing on the web), and will create thumbnail versions to ensure the gallery is optimised. The original files in the `images` directory are not touched.
 
 ## Putting Live
 * Make sure you have set `static/CNAME` to what it needs to be
