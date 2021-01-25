@@ -13,6 +13,11 @@
       <h2>Crematorium</h2>
       <p>The service is being held at Crematorium address</p>
       <a class="button" target="_blank" rel=”noopener” href="">Livestream - 12:00pm</a>
+      <ul class="fa-ul">
+        <ListItem>Username: <span class="highlight">test123</span> <CopyButton text="test123"></CopyButton></ListItem>
+        <ListItem>Password: <span class="highlight">password123</span> <CopyButton text="password123"></CopyButton></ListItem>
+      </ul>
+
     </div>
   </div>
 </template>

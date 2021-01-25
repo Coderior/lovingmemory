@@ -208,6 +208,14 @@ ul {
     }
   }
 }
+.highlight {
+  background: $highlight;
+  padding: 3px 7px;
+  font-size: 16px;
+  margin-left: 15px;
+  border-radius: 4px;
+}
+
 .menu {
   //display: flex;
   //flex-direction: column;
