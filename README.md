@@ -10,6 +10,9 @@ I originally built this as a central place people could go to find out about fun
 # install dependencies
 $ yarn install
 
+# generate resized and normalised images
+$ node index.is
+
 # serve with hot reload at localhost:3000
 $ yarn dev
 
@@ -32,6 +35,7 @@ To build your own, clone this repository, then make changes to:
 * `assets/images/` - Drop all the images you want to show in the gallery in this folder - As part of the github action it will rename the images that have problematic names, resize images to a max width of 1800px (more than big enough for viewing on the web), and will create thumbnail versions to ensure the gallery is optimised. The original files in the `images` directory are not touched.
 
 ## Putting Live
+* Make sure you have GitHub actions running
 * Make sure you have set `static/CNAME` to what it needs to be
 * On your nameservers point a CNAME from your custom domain to `<username>.github.io`
 * Once the Github action runs it should all be setup, but if not, go to your repos `Settings / Options`, scroll down to `GitHub Pages` and for source select `Branch: gh-pages`
