@@ -11,7 +11,7 @@ I originally built this as a central place people could go to find out about fun
 $ yarn install
 
 # generate resized and normalised images
-$ node index.is
+$ node index.js
 
 # serve with hot reload at localhost:3000
 $ yarn dev
