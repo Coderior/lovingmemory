@@ -7,6 +7,8 @@
 <style lang="scss">
 $highlight: #f41b8e;
 $highlightmuted: #f41b8ed9;
+$background: #2b3143;
+
 html {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -117,7 +119,7 @@ html {
   }
 
   &.tribute {
-    background: #2b3143;
+    background: $background;
     justify-content: space-evenly;
     overflow: auto;
     height: 100vh;
@@ -133,7 +135,7 @@ html {
     }
   }
   &.details {
-    background: #2b3143;
+    background: $background;
     color: white;
     align-items: flex-start;
     text-align: left;
