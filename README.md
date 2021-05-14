@@ -33,7 +33,7 @@ To build your own, fork this repository, then make changes to:
 * `assets/frontimage.jpg` - Replace with your own image, this is the image that shows on the front page, image should be 244px by 292px.
 * `pages/*` - Change the details in the pages to match what you want them to say.
 * `static/CNAME` - Replace with your own custom domain
-* `layouts/default.vue` - You can change the scss here
+* `layouts/default.vue` - You can change the scss here, if you want to change the main colours used they are near the top of this file.
 * `assets/images/` - Drop all the images you want to show in the gallery in this folder - As part of the github action it will rename the images that have problematic names, resize images to a max width of 1800px (more than big enough for viewing on the web), and will create thumbnail versions to ensure the gallery is optimised. The original files in the `images` directory are not touched.
 
 ## Putting Live
