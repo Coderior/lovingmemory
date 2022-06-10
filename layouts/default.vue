@@ -221,6 +221,7 @@ html {
     margin: 10px 0;
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
     border-top: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
   }
 }
 ul {
