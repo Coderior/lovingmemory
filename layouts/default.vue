@@ -171,7 +171,7 @@ html {
       margin: 40px 0 5px;
       align-items: center;
       display: flex;
-      span {
+      span, em {
         background: $highlightmuted;
         padding: 3px 7px;
         font-size: 16px;
