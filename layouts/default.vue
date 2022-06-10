@@ -56,7 +56,7 @@ html {
     margin: 0!important;
     padding: 6px 0;
     padding-left: 23px;
-    height: 28px;
+    min-height: 28px;
     position: relative;
 }
 
@@ -251,6 +251,7 @@ ul {
   font-size: 16px;
   margin-left: 15px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .menu {
