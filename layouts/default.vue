@@ -27,6 +27,37 @@ html {
   margin: 0;
 }
 
+.fa-ulist {
+    margin: 10px 0px!important;
+}
+.fa-icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-list::before {
+    font: var(--fa-font-solid);
+    content: "\f105";
+    color: $highlight;
+    margin-right: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-list {
+    margin: 0!important;
+    padding: 6px 0;
+    padding-left: 23px;
+    height: 28px;
+}
+
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
