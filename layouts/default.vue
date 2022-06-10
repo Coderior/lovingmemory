@@ -29,6 +29,8 @@ html {
 
 .fa-ulist {
     margin: 10px 0px!important;
+    list-style-type: none;
+    position: relative;
 }
 .fa-icon::before {
     display: inline-block;
@@ -55,6 +57,7 @@ html {
     padding: 6px 0;
     padding-left: 23px;
     height: 28px;
+    position: relative;
 }
 
 
