@@ -4,6 +4,7 @@
       <Nav />
     </div>
     <div class="section details">
+      <!-- CONTENT START -->
       <h1 class="title">Gallery</h1>
       <CoolLightBox 
         :items="images" 
@@ -20,6 +21,7 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"
         ></div>
       </div>
+      <!-- CONTENT END -->
     </div>
   </div>
 </template>
