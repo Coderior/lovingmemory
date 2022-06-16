@@ -6,6 +6,7 @@
     <div class="section details">
       <!-- CONTENT START -->
       <h1 class="title">Gallery</h1>
+      <!-- CONTENT END -->
       <CoolLightBox 
         :items="images" 
         :index="index"
@@ -21,7 +22,6 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"
         ></div>
       </div>
-      <!-- CONTENT END -->
     </div>
   </div>
 </template>
