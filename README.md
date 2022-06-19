@@ -6,6 +6,8 @@ I originally built this as a central place people could go to find out about fun
 
 If you need help getting this set up feel free to reach out on discord - https://discord.gg/XG9vyq3M9N
 
+You can get more information from [https://lovingmemory.link](https://lovingmemory.link)
+
 ## Build Setup
 
 ```bash
