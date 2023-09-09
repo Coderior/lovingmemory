@@ -2,7 +2,7 @@ name: cd
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gh-pages ]
 
 jobs:
   cd:
