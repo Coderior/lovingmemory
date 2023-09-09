@@ -70,6 +70,7 @@ glob("assets/images/*.+(png|jpg|jpeg|svg)", opt, async function (err, images) {
        
     }
 
+
 })
 
 
