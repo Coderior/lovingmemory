@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1694419975",layout:"default",error:a,serverRendered:true,routePath:b,config:{name:"Janet Doe",dates:"July 29th 1958 - Jan 4th 2021",_app:{basePath:b,assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null,"\u002F"));
