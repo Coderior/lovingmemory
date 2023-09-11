@@ -1,7 +1,10 @@
+import { defineNuxtConfig } from '@nuxt/bridge'
+
 const name = 'Janet Doe'
 const dates = 'July 29th 1958 - Jan 4th 2021'
 
-export default {
+export default defineNuxtConfig ({
+  bridge: false,
   publicRuntimeConfig: {
     name: name,
     dates: dates
@@ -51,4 +54,4 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
-}
+})

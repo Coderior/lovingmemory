@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.17.0",
     "vue-cool-lightbox": "^2.7.0"
   },
   "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "jimp": "^0.16.1",
     "sass": "^1.32.0",
     "sass-loader": "^10.1.0"
